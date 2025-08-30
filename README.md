@@ -27,8 +27,7 @@ It showcases a sleek design for a task management tool, featuring smooth animati
 ```
 
 ## 📸 Preview
-![TaskFlow Preview](screenshot.png)  
-*(Add a screenshot of your landing page here)*
+![TaskFlow Preview](screenshot.png)
 
 ## ⚡ How to Run
 1. Clone the repository:

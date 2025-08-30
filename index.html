@@ -3,107 +3,224 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TaskFlow - Artistic Productivity</title>
+  <title>TaskFlow - Modern Task Management</title>
+  
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Header -->
-<header class="header">
-  <div class="logo">🌟 TaskFlow</div>
-  <nav class="nav">
-    <a href="#hero">Home</a>
-    <a href="#features">Features</a>
-    <a href="#reviews">Reviews</a>
-    <a href="#pricing">Pricing</a>
-    <a href="#contact">Contact</a>
+    
+  <!-- Fixed Navbar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="nav-logo">TaskFlow</div>
+
+     <div class="hamburger" id="hamburger">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </div>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#" class="btn nav-btn get-st" style="padding: 10px 23px;">Get Started</a>
+    </div>
   </nav>
-  <div class="hamburger">☰</div>
-</header>
 
+  <!-- Hero Section -->
+  <header>
+    <div class="container">
+      <div class="hero">
+        <h1>TaskFlow</h1>
+        <p>Organize your tasks, boost your productivity, and achieve more with our intuitive task management tool.</p>
+        <a href="#" class="btn">Get Started Free</a>
+      </div>
+    </div>
+  </header>
 
-  <!-- Hero -->
-  <section class="hero" id="hero">
-    <div class="hero-content">
-      <h1>Work Smarter,<br><span>Live Creatively</span></h1>
-      <p>TaskFlow blends productivity with artistic design, inspiring teams and individuals to achieve more with joy.</p>
-      <button class="cta">Get Started</button>
+  <!-- Features -->
+  <section id="features" class="features">
+    <div class="container">
+      <div class="section-title">
+        <h2>Powerful Features</h2>
+        <p>Everything you need to organize your tasks and boost productivity</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-tasks"></i></div>
+          <h3>Smart Task Management</h3>
+          <p>Easily create, organize, and prioritize tasks with our intuitive drag-and-drop interface.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-users"></i></div>
+          <h3>Team Collaboration</h3>
+          <p>Work together seamlessly by assigning tasks, sharing files, and leaving comments.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-chart-pie"></i></div>
+          <h3>Progress Tracking</h3>
+          <p>Visualize your progress with detailed analytics and customizable reports.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Features -->
-<section class="features" id="features">
-  <h2>Our Features</h2>
-  <div class="feature-grid">
-    <div class="card feature-card">
-      <div class="icon">🎨</div>
-      <h3>Beautiful UI</h3>
-      <p>Designed with elegance and creativity.</p>
-    </div>
-    <div class="card feature-card">
-      <div class="icon">⚡</div>
-      <h3>Lightning Fast</h3>
-      <p>Lightweight, smooth and responsive.</p>
-    </div>
-    <div class="card feature-card">
-      <div class="icon">🤝</div>
-      <h3>Collaboration</h3>
-      <p>Work seamlessly with your team.</p>
-    </div>
-  </div>
-</section>
-
-  <!-- Reviews -->
-  <section class="reviews" id="reviews">
-    <h2>What People Say</h2>
-    <div class="review-grid">
-      <blockquote>“A productivity tool that feels like art.” ⭐⭐⭐⭐⭐</blockquote>
-      <blockquote>“TaskFlow completely changed how my team works.” ⭐⭐⭐⭐⭐</blockquote>
-      <blockquote>“Simple, beautiful, and inspiring.” ⭐⭐⭐⭐⭐</blockquote>
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <div class="section-title">
+        <h2>What Our Users Say</h2>
+        <p>Join thousands of satisfied users who transformed their productivity with TaskFlow</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-text">TaskFlow has completely changed how I manage my projects. I've doubled my productivity since I started using it!</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JD</div>
+            <div class="author-info">
+              <h4>Mohamed Ahmed</h4>
+              <p>Manager</p>
+              <div class="rating">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">The collaboration features are fantastic. My team is more aligned and productive than ever before.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SM</div>
+            <div class="author-info">
+              <h4>Mohamed Ahmed</h4>
+              <p>Marketing Director</p>
+              <div class="rating">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">I've tried countless task management apps, but TaskFlow strikes the perfect balance between simplicity and power.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AJ</div>
+            <div class="author-info">
+              <h4>Mohamed Ahmed</h4>
+              <p>Freelancer</p>
+              <div class="rating">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Pricing -->
-  <section class="pricing" id="pricing">
-    <h2>Plans & Pricing</h2>
-    <div class="pricing-grid">
-      <div class="price-card">
-        <h3>Free</h3>
-        <p class="price">$0</p>
-        <p>For individuals exploring TaskFlow.</p>
-        <button>Choose</button>
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <div class="section-title">
+        <h2>Simple Pricing</h2>
+        <p>Choose the plan that works best for you and your team</p>
       </div>
-      <div class="price-card highlight">
-        <h3>Pro</h3>
-        <p class="price">$9</p>
-        <p>For professionals & creatives.</p>
-        <button>Choose</button>
-      </div>
-      <div class="price-card">
-        <h3>Team</h3>
-        <p class="price">$29</p>
-        <p>Best for growing organizations.</p>
-        <button>Choose</button>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h3>Free</h3>
+          <div class="price">$0 <span>/month</span></div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check-circle"></i> Up to 5 projects</li>
+            <li><i class="fas fa-check-circle"></i> Basic task management</li>
+            <li><i class="fas fa-check-circle"></i> 500MB storage</li>
+            <li><i class="fas fa-check-circle"></i> Basic support</li>
+          </ul>
+          <a href="#" class="pricing-btn">Get Started</a>
+        </div>
+        <div class="pricing-card popular">
+          <h3>Pro</h3>
+          <div class="price">$9 <span>/month</span></div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check-circle"></i> Unlimited projects</li>
+            <li><i class="fas fa-check-circle"></i> Advanced task management</li>
+            <li><i class="fas fa-check-circle"></i> 10GB storage</li>
+            <li><i class="fas fa-check-circle"></i> Priority support</li>
+            <li><i class="fas fa-check-circle"></i> Team collaboration</li>
+          </ul>
+          <a href="#" class="pricing-btn">Get Started</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Team</h3>
+          <div class="price">$18 <span>/user/month</span></div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check-circle"></i> Unlimited projects</li>
+            <li><i class="fas fa-check-circle"></i> Advanced task management</li>
+            <li><i class="fas fa-check-circle"></i> 50GB storage</li>
+            <li><i class="fas fa-check-circle"></i> 24/7 support</li>
+            <li><i class="fas fa-check-circle"></i> Advanced analytics</li>
+          </ul>
+          <a href="#" class="pricing-btn">Get Started</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section class="contact" id="contact">
-    <h2>Get in Touch</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea rows="5" placeholder="Your Message"></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
   <!-- Footer -->
-  <footer>
-    <p>© 2025 TaskFlow. All rights reserved.</p>
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <div class="footer-logo">TaskFlow</div>
+          <p>Organize your tasks, boost productivity, and achieve more with our intuitive task management tool.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#features"><i class="fas fa-chevron-right"></i> Features</a></li>
+            <li><a href="#pricing"><i class="fas fa-chevron-right"></i> Pricing</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Use Cases</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Integrations</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> About</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Blog</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Careers</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Help Center</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> API Documentation</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Community</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Status</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 TaskFlow. All rights reserved.</p>
+      </div>
+    </div>
   </footer>
 
+  <script src="script.js">
+
+  </script>
 </body>
-<script src="script.js"></script>
 </html>
